@@ -17,3 +17,9 @@ class Display:
     @staticmethod
     def warning(s):
         display(HTML("<text style=color:{}>{}</text>".format('red', s))) 
+
+    @staticmethod
+    def tag_bars(ax, size=None):
+        for p in ax.patches:
+            value = f'{round(100 * p.get_height() / size, 2)}%' if size else f'{p.get_height()}'
+            ax.annotate(value, (p.get_x() * 1.005, p.get_height() * 1.005))

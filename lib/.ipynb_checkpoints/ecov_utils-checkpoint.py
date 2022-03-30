@@ -1,8 +1,10 @@
 import calendar
 import pandas as pd
 from datetime import datetime, timedelta
-from display import Display
-from study import EcovStudy, ParticipantsBuilder
+
+from lib.display import Display
+from lib.studies.ecov_study import EcovStudy
+from lib.participant_builder import ParticipantsBuilder
 
 class ResponsesBuilder():
     def __init__(self, responses_df):
@@ -19,7 +21,7 @@ class ResponsesBuilder():
         value_col = 'VALUECODING_CODE' if multichoice else 'VALUE'
         df = self._filter_by_question(question_id, survey_id)
         df = df.rename(columns={value_col: column_name})
-        df = df[['ALP_ID', column_name, 'INTERACTION_ID', 'AUTHORED', 'QUESTIONNAIRE']]
+        df = df[['ALP_ID', column_name, 'QUESTIONNAIRE_ID', 'AUTHORED', 'QUESTIONNAIRE']]
         return df
 
     def get_choice(self, column_name, question_id, survey_id = None):
@@ -44,22 +46,22 @@ class TestManager():
     
     def _add_method(self):
         df = self.rb.get_choice('METHOD', 'what_test_method')
-        self.tests = pd.merge(self.tests, df, how='left', on=['ALP_ID', 'INTERACTION_ID', 'AUTHORED', 'QUESTIONNAIRE'])
+        self.tests = pd.merge(self.tests, df, how='left', on=['ALP_ID', 'QUESTIONNAIRE_ID', 'AUTHORED', 'QUESTIONNAIRE'])
         
     def _add_result(self):
         df = self.rb.get_choice('RESULT', 'corona_test_result')
-        self.tests = pd.merge(self.tests, df, how='left', on=['ALP_ID', 'INTERACTION_ID', 'AUTHORED', 'QUESTIONNAIRE'])
+        self.tests = pd.merge(self.tests, df, how='left', on=['ALP_ID', 'QUESTIONNAIRE_ID', 'AUTHORED', 'QUESTIONNAIRE'])
 
     def _add_test_profile(self):
         df = self.rb.get_choice('TEST_PROFILE', 'regular_testing')[['ALP_ID', 'TEST_PROFILE']].drop_duplicates()
         self.tests = pd.merge(self.tests, df, how='left', on=['ALP_ID'])
 
     def _remove_duplications(self):
-        self.tests.sort_values(['AUTHORED', 'INTERACTION_ID'], inplace = True) 
+        self.tests.sort_values(['AUTHORED', 'QUESTIONNAIRE_ID'], inplace = True) 
         self.tests = self.tests.drop_duplicates(['ALP_ID', 'TEST_DATE'], keep='last')
         
     def get(self):
-        df = self.tests.drop(columns=['INTERACTION_ID'])
+        df = self.tests.drop(columns=['QUESTIONNAIRE_ID'])
         return df
     
     def count_participants(self, min_number_of_tests):

@@ -23,7 +23,7 @@ class SurveyGenerator():
     def __init__(self, template_reader):
         self.reader = template_reader
         columns = ['ALP_ID','VERSION', 'QUESTIONNAIRE', 'STATUS', 'AUTHORED', 
-                   'LINK_ID', 'VALUE', 'VALUECODING_CODE', 'LANGUAGE', 'TEXT', 'INTERACTION_ID']
+                   'LINK_ID', 'VALUE', 'VALUECODING_CODE', 'LANGUAGE', 'TEXT', 'QUESTIONNAIRE_ID']
         self.df = pd.DataFrame(columns=columns)
         self.count_surveys = 0
 
@@ -79,7 +79,7 @@ class SurveyGenerator():
         df['STATUS'] = 'completed'
         df['LANGUAGE'] = 'en' if is_english else 'de'
         df['AUTHORED'] = submitted_on
-        df['INTERACTION_ID'] = f'{self.count_surveys + 1}'
+        df['QUESTIONNAIRE_ID'] = f'{self.count_surveys + 1}'
         self.count_surveys = self.count_surveys + 1
 
         # --- test conditions: gesundheitsberufe, hochschule

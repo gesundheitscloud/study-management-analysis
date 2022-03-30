@@ -2,8 +2,9 @@ import csv
 import pandas
 import pandas as pd
 import rstr
-from IPython.display import display, HTML
 
+from lib.disk import Disk
+    
 class Condition():
     def __init__(self, row):
         self.question_id = row[1]
@@ -25,8 +26,8 @@ class Range():
     
 class TemplateReader():
         
-    def __init__(self, base_path, folder_name):
-        self._find_base_path(base_path, folder_name)
+    def __init__(self, folder_name):
+        self.base_path = Disk(folder_name).get_value('templates_dir')
         questionnaires_df = pandas.read_csv(self.base_path + 'Questionnaires.csv', sep=',')
         questions_df = pandas.read_csv(self.base_path + 'Demographics.csv', sep=',')
         self.df = pandas.merge(questionnaires_df, questions_df, how='left', on='Question Name')
@@ -34,12 +35,6 @@ class TemplateReader():
         self._create_answers()
         self._create_conditions()
         self._create_ranges()
-
-    def _find_base_path(self, base_path, folder_name):
-        import json
-        with open(base_path + '/config.json', 'r') as f:
-            files = json.load(f)
-        self.base_path = files[folder_name]['template_dir']
 
     def _create_answer_sets(self):
         answer_sets = {}

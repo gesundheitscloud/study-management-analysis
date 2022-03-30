@@ -35,5 +35,8 @@ class Disk(object):
         df[column_name].replace('\\n',' ', regex=True, inplace=True)
         return df
         
+    def get_value(self, label):
+        return self.data[self.folder_name][label]
+        
     def read_by_label(self, label, sep='\t'):
         return pd.read_csv(self.data[self.folder_name][label], sep=sep)

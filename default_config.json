@@ -1,0 +1,11 @@
+{
+    "GENERATE": {
+        "templates_dir": "./files/RKI_GENERATE/"
+    },
+    "mock-db": {
+        "EXAMPLE_STUDY": {
+            "participants": "./files/EXAMPLE_STUDY/2022-03-31-participants.csv",
+            "responses": "./files/EXAMPLE_STUDY/2022-03-31-responses.csv"
+        }
+    }
+}

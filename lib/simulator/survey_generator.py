@@ -24,8 +24,21 @@ class SurveyGenerator():
         self.reader = template_reader
         columns = ['ALP_ID','VERSION', 'QUESTIONNAIRE', 'STATUS', 'AUTHORED', 
                    'LINK_ID', 'VALUE', 'VALUECODING_CODE', 'LANGUAGE', 'TEXT', 'QUESTIONNAIRE_ID']
-        self.df = pd.DataFrame(columns=columns)
+        self.responses_df = pd.DataFrame(columns=columns)
         self.count_surveys = 0
+        participants_columns = 'ALP_ID', 'EXTERNAL_ID', 'STATUS', 'START_DATE', 'END_DATE'
+        self.participants_df = pd.DataFrame(columns=participants_columns)
+        
+    def create_participants(self, total_amount, suspended_amount):
+        if suspended_amount > total_amount: 
+            raise ValueError("suspended amount needs to be smaller than total amount")
+    
+        for i in range(total_amount):
+            enrolled = (i >= suspended_amount)
+            is_tester = i % 5 == 0
+            user = EnroledUser(enrolled, is_tester)
+            self.participants_df = self.participants_df.append(user.to_json(), ignore_index=True)
+            self.add_survey(user.id, user.enroled_on, False)
 
     @staticmethod
     def random_month(prop, start="1900-01", end=None):
@@ -92,23 +105,32 @@ class SurveyGenerator():
                  'Answer Type', 'Answers', 'Range']
         
         df.drop(columns=columns, inplace=True)
-        self.df = self.df.append(df, ignore_index=True)
+        self.responses_df = self.responses_df.append(df, ignore_index=True)
 
-    def get_all(self):
-        return self.df
+    def get_participants(self):
+        return self.participants_df \
+            .sort_values(by=['START_DATE']) \
+            .reset_index(drop=True)
+
+    def get_responses(self):
+        return self.responses_df
     
 
 class EnroledUser():
     
-    def __init__(self, enrolled=True):
+    next_id = 1000
+    count = 1
+    
+    def __init__(self, enrolled=True, is_tester=False):
         self.id = EnroledUser.generate_user_id()
         self.enroled_on = EnroledUser.get_authored_date()
         self.enrolled = enrolled
+        self.external_id = EnroledUser.get_external_id(is_tester)
         
     def to_json(self):
         return {
             'ALP_ID': self.id, 
-            'EXTERNAL_ID': 'anonymous',
+            'EXTERNAL_ID': self.external_id,
             'STATUS': f'{"enrolled" if self.enrolled else "suspended"}',
             'START_DATE': self.enroled_on,
             'END_DATE': f'{pd.NaT if self.enrolled else datetime.today().strftime("%Y-%m-%d")}'
@@ -116,11 +138,19 @@ class EnroledUser():
         
     @staticmethod
     def generate_user_id():
-        import rstr
-        return rstr.xeger(r'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\Z')
+        EnroledUser.next_id += 1
+        return str(EnroledUser.next_id)
+#         import rstr
+#         return rstr.xeger(r'[0-9]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\Z')
 
     @staticmethod
     def get_authored_date(start_from='2021-01-01'):
         today = datetime.today().strftime('%Y-%m-%d')
         return str_time_prop(start_from, today, '%Y-%m-%d', random.random())
+    
+    @staticmethod
+    def get_external_id(is_tester):
+        identifier = EnroledUser.count * 5 + 2
+        EnroledUser.count += 1
+        return f'test_user_{identifier}' if is_tester else f'uninklinik_{identifier}'
     

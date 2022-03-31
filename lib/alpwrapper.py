@@ -12,12 +12,9 @@ class QueryWrapper(object):
     def __init__(self, schema):
         self.settings = SchemaManager.get_settings(schema)
         self.schema = schema
-    
-    @staticmethod
-    def _import_alp_libs():
-        from pyqe import Query, Result, Person, Interactions
         
     def get_participants(self):
+        from pyqe import Person
         query = self.prepare_query('Participants')
         df = self.execute(query, [Person.Patient()]) 
         return self.procesing_participants_table(df)
@@ -37,6 +34,7 @@ class QueryWrapper(object):
         return df    
     
     def get_wearables(self):
+        from pyqe import Result
         query = self.prepare_query('Wearables')
         d = query.get_entities_dataframe_cohort([
             'patient.interactions.observation.attributes.obsid',
@@ -65,6 +63,7 @@ class QueryWrapper(object):
         return df
         
     def get_responses(self):
+        from pyqe import Interactions
         query = self.prepare_query('Responses')
         df = self.execute(query, [Interactions.Questionnaire("q")])
         return self.procesing_responses_table(df)
@@ -93,15 +92,16 @@ class QueryWrapper(object):
         return df
         
     def prepare_query(self, cohort_name):
-        QueryWrapper._import_alp_libs()
+        from pyqe import Query
         q = Query(cohort_name=cohort_name) 
-        study_id = study_settings.get_study()
-        config_id = study_settings.get_config()
+        study_id = self.settings.get_study()
+        config_id = self.settings.get_config()
         q.set_study(study_id)
         q.set_study_config(config_id)
         return q
     
     def execute(self, query, filters):
+        from pyqe import Result
         query.add_filters(filters);
         f = io.StringIO()
         with redirect_stdout(f):

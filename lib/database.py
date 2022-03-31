@@ -7,11 +7,12 @@ from lib.mock_db import MockDatabase
 
 class Database(object):
     
-    def __init__(self, schema):
+    def __init__(self, schema, is_mock=None):
         self.schema = schema
         with open(r'./config.json', "r") as jsonFile:
             data_lib = json.load(jsonFile)
-        is_mock = (data_lib['env'] == 'local_env')
+        if is_mock is None:
+            is_mock = (data_lib['env'] == 'local_env')
         self.db = MockDatabase(schema) \
             if is_mock \
             else QueryWrapper(schema)

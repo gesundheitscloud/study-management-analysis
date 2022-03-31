@@ -14,7 +14,7 @@ class Disk(object):
 
         date_str = date.today().strftime("%Y-%m-%d")
         filepath = f'./files/{self.folder_name}/{date_str}-{file_str}.csv'
-        self.data['mock-db'][self.folder_name][file_str] = filepath
+        self.data['local_env'][self.folder_name][file_str] = filepath
         df.to_csv(filepath, sep='\t', index=False)
 
         with open(self.filepath, "w") as jsonFile:

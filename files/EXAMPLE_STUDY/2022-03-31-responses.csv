@@ -1,0 +1,407 @@
+ALP_ID	VERSION	QUESTIONNAIRE	STATUS	AUTHORED	LINK_ID	VALUE	VALUECODING_CODE	LANGUAGE	TEXT	QUESTIONNAIRE_ID
+1001	1.0.0	S1	completed	2021-08-22	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	1
+1001	1.0.0	S1	completed	2021-08-22	Sex_A		diverse	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	1
+1001	1.0.0	S1	completed	2021-08-22	Gebm_Gebj	1933-05		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	1
+1001	1.0.0	S1	completed	2021-08-22	HS1		moderate	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	1
+1001	1.0.0	S1	completed	2021-08-22	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	1
+1001	1.0.0	S1	completed	2021-08-22	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	1
+1001	1.0.0	S1	completed	2021-08-22	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	1
+1001	1.0.0	S1	completed	2021-08-22	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	1
+1001	1.0.0	S1	completed	2021-08-22	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	1
+1001	1.0.0	S1	completed	2021-08-22	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	1
+1001	1.0.0	S1	completed	2021-08-22	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	1
+1001	1.0.0	S1	completed	2021-08-22	CD1H		yes	de	Depression	1
+1001	1.0.0	S1	completed	2021-08-22	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	1
+1001	1.0.0	S1	completed	2021-08-22	BM1	154		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	1
+1001	1.0.0	S1	completed	2021-08-22	BM2	187		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	1
+1001	1.0.0	S1	completed	2021-08-22	SK1A		daily	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	1
+1001	1.0.0	S1	completed	2021-08-22	KAspodauz2B		less_than_1h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	1
+1001	1.0.0	S1	completed	2021-08-22	HSA1Aa1		realschule	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	1
+1001	1.0.0	S1	completed	2021-08-22	HBA1A		public_administration	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	1
+1001	1.0.0	S1	completed	2021-08-22	ERWTOa		vollzeit	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	1
+1002	1.0.0	S1	completed	2021-06-14	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	2
+1002	1.0.0	S1	completed	2021-06-14	Sex_A		diverse	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	2
+1002	1.0.0	S1	completed	2021-06-14	Gebm_Gebj	1958-07		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	2
+1002	1.0.0	S1	completed	2021-06-14	HS1		very_bad	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	2
+1002	1.0.0	S1	completed	2021-06-14	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	2
+1002	1.0.0	S1	completed	2021-06-14	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	2
+1002	1.0.0	S1	completed	2021-06-14	CD1C		no	de	Asthma, einschließlich allergisches Asthma	2
+1002	1.0.0	S1	completed	2021-06-14	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	2
+1002	1.0.0	S1	completed	2021-06-14	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	2
+1002	1.0.0	S1	completed	2021-06-14	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	2
+1002	1.0.0	S1	completed	2021-06-14	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	2
+1002	1.0.0	S1	completed	2021-06-14	CD1H		no	de	Depression	2
+1002	1.0.0	S1	completed	2021-06-14	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	2
+1002	1.0.0	S1	completed	2021-06-14	BM1	150		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	2
+1002	1.0.0	S1	completed	2021-06-14	BM2	150		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	2
+1002	1.0.0	S1	completed	2021-06-14	SK1A		sometimes	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	2
+1002	1.0.0	S1	completed	2021-06-14	KAspodauz2B		between_2h_3h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	2
+1002	1.0.0	S1	completed	2021-06-14	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	2
+1002	1.0.0	S1	completed	2021-06-14	HBA1A		public_administration	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	2
+1002	1.0.0	S1	completed	2021-06-14	ERWTOa		teilzeit	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	2
+1003	1.0.0	S1	completed	2021-05-07	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	3
+1003	1.0.0	S1	completed	2021-05-07	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	3
+1003	1.0.0	S1	completed	2021-05-07	Gebm_Gebj	1999-02		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	3
+1003	1.0.0	S1	completed	2021-05-07	HS1		dont_know	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	3
+1003	1.0.0	S1	completed	2021-05-07	CD1A		yes	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	3
+1003	1.0.0	S1	completed	2021-05-07	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	3
+1003	1.0.0	S1	completed	2021-05-07	CD1C		no	de	Asthma, einschließlich allergisches Asthma	3
+1003	1.0.0	S1	completed	2021-05-07	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	3
+1003	1.0.0	S1	completed	2021-05-07	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	3
+1003	1.0.0	S1	completed	2021-05-07	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	3
+1003	1.0.0	S1	completed	2021-05-07	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	3
+1003	1.0.0	S1	completed	2021-05-07	CD1H		yes	de	Depression	3
+1003	1.0.0	S1	completed	2021-05-07	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	3
+1003	1.0.0	S1	completed	2021-05-07	BM1	214		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	3
+1003	1.0.0	S1	completed	2021-05-07	BM2	153		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	3
+1003	1.0.0	S1	completed	2021-05-07	SK1A		not_anymore	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	3
+1003	1.0.0	S1	completed	2021-05-07	KAspodauz2B		between_5h_6h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	3
+1003	1.0.0	S1	completed	2021-05-07	HSA1Aa1		no_abschluss	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	3
+1003	1.0.0	S1	completed	2021-05-07	HBA1A		hochschule	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	3
+1003	1.0.0	S1	completed	2021-05-07	HBA1A3		fachhochschule	de	War das an einer…	3
+1003	1.0.0	S1	completed	2021-05-07	HBA3Aa		promotion	de	Wie ist die Bezeichung Ihres höchsten Abschlusses?	3
+1003	1.0.0	S1	completed	2021-05-07	ERWTOa		geringfügig_erwerbstätig	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	3
+1004	1.0.0	S1	completed	2021-11-13	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	4
+1004	1.0.0	S1	completed	2021-11-13	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	4
+1004	1.0.0	S1	completed	2021-11-13	Gebm_Gebj	1942-07		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	4
+1004	1.0.0	S1	completed	2021-11-13	HS1		very_bad	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	4
+1004	1.0.0	S1	completed	2021-11-13	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	4
+1004	1.0.0	S1	completed	2021-11-13	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	4
+1004	1.0.0	S1	completed	2021-11-13	CD1C		no	de	Asthma, einschließlich allergisches Asthma	4
+1004	1.0.0	S1	completed	2021-11-13	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	4
+1004	1.0.0	S1	completed	2021-11-13	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	4
+1004	1.0.0	S1	completed	2021-11-13	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	4
+1004	1.0.0	S1	completed	2021-11-13	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	4
+1004	1.0.0	S1	completed	2021-11-13	CD1H		yes	de	Depression	4
+1004	1.0.0	S1	completed	2021-11-13	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	4
+1004	1.0.0	S1	completed	2021-11-13	BM1	123		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	4
+1004	1.0.0	S1	completed	2021-11-13	BM2	100		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	4
+1004	1.0.0	S1	completed	2021-11-13	SK1A		not_smoking	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	4
+1004	1.0.0	S1	completed	2021-11-13	KAspodauz2B		less_than_1h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	4
+1004	1.0.0	S1	completed	2021-11-13	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	4
+1004	1.0.0	S1	completed	2021-11-13	HBA1A		hochschule	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	4
+1004	1.0.0	S1	completed	2021-11-13	HBA1A3		berufsakademie	de	War das an einer…	4
+1004	1.0.0	S1	completed	2021-11-13	HBA3Aa		promotion	de	Wie ist die Bezeichung Ihres höchsten Abschlusses?	4
+1004	1.0.0	S1	completed	2021-11-13	ERWTOa		student	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	4
+1005	1.0.0	S1	completed	2021-12-29	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	5
+1005	1.0.0	S1	completed	2021-12-29	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	5
+1005	1.0.0	S1	completed	2021-12-29	Gebm_Gebj	1927-03		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	5
+1005	1.0.0	S1	completed	2021-12-29	HS1		moderate	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	5
+1005	1.0.0	S1	completed	2021-12-29	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	5
+1005	1.0.0	S1	completed	2021-12-29	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	5
+1005	1.0.0	S1	completed	2021-12-29	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	5
+1005	1.0.0	S1	completed	2021-12-29	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	5
+1005	1.0.0	S1	completed	2021-12-29	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	5
+1005	1.0.0	S1	completed	2021-12-29	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	5
+1005	1.0.0	S1	completed	2021-12-29	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	5
+1005	1.0.0	S1	completed	2021-12-29	CD1H		no	de	Depression	5
+1005	1.0.0	S1	completed	2021-12-29	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	5
+1005	1.0.0	S1	completed	2021-12-29	BM1	115		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	5
+1005	1.0.0	S1	completed	2021-12-29	BM2	125		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	5
+1005	1.0.0	S1	completed	2021-12-29	SK1A		not_anymore	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	5
+1005	1.0.0	S1	completed	2021-12-29	KAspodauz2B		more_than_8h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	5
+1005	1.0.0	S1	completed	2021-12-29	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	5
+1005	1.0.0	S1	completed	2021-12-29	HBA1A		no_qualification	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	5
+1005	1.0.0	S1	completed	2021-12-29	ERWTOa		unemployed_other_reason	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	5
+1006	1.0.0	S1	completed	2021-11-23	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	6
+1006	1.0.0	S1	completed	2021-11-23	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	6
+1006	1.0.0	S1	completed	2021-11-23	Gebm_Gebj	1926-04		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	6
+1006	1.0.0	S1	completed	2021-11-23	HS1		good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	6
+1006	1.0.0	S1	completed	2021-11-23	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	6
+1006	1.0.0	S1	completed	2021-11-23	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	6
+1006	1.0.0	S1	completed	2021-11-23	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	6
+1006	1.0.0	S1	completed	2021-11-23	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	6
+1006	1.0.0	S1	completed	2021-11-23	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	6
+1006	1.0.0	S1	completed	2021-11-23	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	6
+1006	1.0.0	S1	completed	2021-11-23	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	6
+1006	1.0.0	S1	completed	2021-11-23	CD1H		no	de	Depression	6
+1006	1.0.0	S1	completed	2021-11-23	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	6
+1006	1.0.0	S1	completed	2021-11-23	BM1	169		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	6
+1006	1.0.0	S1	completed	2021-11-23	BM2	117		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	6
+1006	1.0.0	S1	completed	2021-11-23	SK1A		sometimes	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	6
+1006	1.0.0	S1	completed	2021-11-23	KAspodauz2B		between_5h_6h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	6
+1006	1.0.0	S1	completed	2021-11-23	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	6
+1006	1.0.0	S1	completed	2021-11-23	HBA1A		gesundheitsberufe	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	6
+1006	1.0.0	S1	completed	2021-11-23	HBA1A2		ausbildung_2y_3y	de	War das an einer…	6
+1006	1.0.0	S1	completed	2021-11-23	ERWTOa		geringfügig_erwerbstätig	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	6
+1007	1.0.0	S1	completed	2021-08-12	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	7
+1007	1.0.0	S1	completed	2021-08-12	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	7
+1007	1.0.0	S1	completed	2021-08-12	Gebm_Gebj	2003-08		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	7
+1007	1.0.0	S1	completed	2021-08-12	HS1		very_bad	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	7
+1007	1.0.0	S1	completed	2021-08-12	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	7
+1007	1.0.0	S1	completed	2021-08-12	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	7
+1007	1.0.0	S1	completed	2021-08-12	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	7
+1007	1.0.0	S1	completed	2021-08-12	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	7
+1007	1.0.0	S1	completed	2021-08-12	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	7
+1007	1.0.0	S1	completed	2021-08-12	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	7
+1007	1.0.0	S1	completed	2021-08-12	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	7
+1007	1.0.0	S1	completed	2021-08-12	CD1H		yes	de	Depression	7
+1007	1.0.0	S1	completed	2021-08-12	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	7
+1007	1.0.0	S1	completed	2021-08-12	BM1	131		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	7
+1007	1.0.0	S1	completed	2021-08-12	BM2	90		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	7
+1007	1.0.0	S1	completed	2021-08-12	SK1A		not_anymore	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	7
+1007	1.0.0	S1	completed	2021-08-12	KAspodauz2B		less_than_1h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	7
+1007	1.0.0	S1	completed	2021-08-12	HSA1Aa1		realschule	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	7
+1007	1.0.0	S1	completed	2021-08-12	HBA1A		gesundheitsberufe	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	7
+1007	1.0.0	S1	completed	2021-08-12	HBA1A2		ausbildung_1y	de	War das an einer…	7
+1007	1.0.0	S1	completed	2021-08-12	ERWTOa		kurzarbeit	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	7
+1008	1.0.0	S1	completed	2022-01-30	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	8
+1008	1.0.0	S1	completed	2022-01-30	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	8
+1008	1.0.0	S1	completed	2022-01-30	Gebm_Gebj	1908-11		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	8
+1008	1.0.0	S1	completed	2022-01-30	HS1		moderate	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	8
+1008	1.0.0	S1	completed	2022-01-30	CD1A		yes	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	8
+1008	1.0.0	S1	completed	2022-01-30	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	8
+1008	1.0.0	S1	completed	2022-01-30	CD1C		no	de	Asthma, einschließlich allergisches Asthma	8
+1008	1.0.0	S1	completed	2022-01-30	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	8
+1008	1.0.0	S1	completed	2022-01-30	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	8
+1008	1.0.0	S1	completed	2022-01-30	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	8
+1008	1.0.0	S1	completed	2022-01-30	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	8
+1008	1.0.0	S1	completed	2022-01-30	CD1H		yes	de	Depression	8
+1008	1.0.0	S1	completed	2022-01-30	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	8
+1008	1.0.0	S1	completed	2022-01-30	BM1	179		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	8
+1008	1.0.0	S1	completed	2022-01-30	BM2	124		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	8
+1008	1.0.0	S1	completed	2022-01-30	SK1A		daily	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	8
+1008	1.0.0	S1	completed	2022-01-30	KAspodauz2B		between_3h_4h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	8
+1008	1.0.0	S1	completed	2022-01-30	HSA1Aa1		still_student	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	8
+1008	1.0.0	S1	completed	2022-01-30	HBA1A		anlernausbildung	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	8
+1008	1.0.0	S1	completed	2022-01-30	ERWTOa		unemployed_other_reason	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	8
+1009	1.0.0	S1	completed	2021-07-08	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	9
+1009	1.0.0	S1	completed	2021-07-08	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	9
+1009	1.0.0	S1	completed	2021-07-08	Gebm_Gebj	1993-11		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	9
+1009	1.0.0	S1	completed	2021-07-08	HS1		very_good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	9
+1009	1.0.0	S1	completed	2021-07-08	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	9
+1009	1.0.0	S1	completed	2021-07-08	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	9
+1009	1.0.0	S1	completed	2021-07-08	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	9
+1009	1.0.0	S1	completed	2021-07-08	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	9
+1009	1.0.0	S1	completed	2021-07-08	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	9
+1009	1.0.0	S1	completed	2021-07-08	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	9
+1009	1.0.0	S1	completed	2021-07-08	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	9
+1009	1.0.0	S1	completed	2021-07-08	CD1H		no	de	Depression	9
+1009	1.0.0	S1	completed	2021-07-08	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	9
+1009	1.0.0	S1	completed	2021-07-08	BM1	173		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	9
+1009	1.0.0	S1	completed	2021-07-08	BM2	114		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	9
+1009	1.0.0	S1	completed	2021-07-08	SK1A		daily	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	9
+1009	1.0.0	S1	completed	2021-07-08	KAspodauz2B		no_sport	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	9
+1009	1.0.0	S1	completed	2021-07-08	HSA1Aa1		hauptschule	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	9
+1009	1.0.0	S1	completed	2021-07-08	HBA1A		fachakademie	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	9
+1009	1.0.0	S1	completed	2021-07-08	ERWTOa		teilzeit	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	9
+1010	1.0.0	S1	completed	2021-02-22	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	10
+1010	1.0.0	S1	completed	2021-02-22	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	10
+1010	1.0.0	S1	completed	2021-02-22	Gebm_Gebj	2016-08		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	10
+1010	1.0.0	S1	completed	2021-02-22	HS1		dont_know	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	10
+1010	1.0.0	S1	completed	2021-02-22	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	10
+1010	1.0.0	S1	completed	2021-02-22	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	10
+1010	1.0.0	S1	completed	2021-02-22	CD1C		no	de	Asthma, einschließlich allergisches Asthma	10
+1010	1.0.0	S1	completed	2021-02-22	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	10
+1010	1.0.0	S1	completed	2021-02-22	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	10
+1010	1.0.0	S1	completed	2021-02-22	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	10
+1010	1.0.0	S1	completed	2021-02-22	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	10
+1010	1.0.0	S1	completed	2021-02-22	CD1H		yes	de	Depression	10
+1010	1.0.0	S1	completed	2021-02-22	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	10
+1010	1.0.0	S1	completed	2021-02-22	BM1	183		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	10
+1010	1.0.0	S1	completed	2021-02-22	BM2	102		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	10
+1010	1.0.0	S1	completed	2021-02-22	SK1A		not_smoking	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	10
+1010	1.0.0	S1	completed	2021-02-22	KAspodauz2B		no_sport	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	10
+1010	1.0.0	S1	completed	2021-02-22	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	10
+1010	1.0.0	S1	completed	2021-02-22	HBA1A		meister	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	10
+1010	1.0.0	S1	completed	2021-02-22	ERWTOa		kurzarbeit	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	10
+1011	1.0.0	S1	completed	2021-02-05	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	11
+1011	1.0.0	S1	completed	2021-02-05	Sex_A		diverse	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	11
+1011	1.0.0	S1	completed	2021-02-05	Gebm_Gebj	1912-09		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	11
+1011	1.0.0	S1	completed	2021-02-05	HS1		bad	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	11
+1011	1.0.0	S1	completed	2021-02-05	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	11
+1011	1.0.0	S1	completed	2021-02-05	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	11
+1011	1.0.0	S1	completed	2021-02-05	CD1C		no	de	Asthma, einschließlich allergisches Asthma	11
+1011	1.0.0	S1	completed	2021-02-05	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	11
+1011	1.0.0	S1	completed	2021-02-05	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	11
+1011	1.0.0	S1	completed	2021-02-05	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	11
+1011	1.0.0	S1	completed	2021-02-05	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	11
+1011	1.0.0	S1	completed	2021-02-05	CD1H		no	de	Depression	11
+1011	1.0.0	S1	completed	2021-02-05	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	11
+1011	1.0.0	S1	completed	2021-02-05	BM1	140		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	11
+1011	1.0.0	S1	completed	2021-02-05	BM2	147		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	11
+1011	1.0.0	S1	completed	2021-02-05	SK1A		not_anymore	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	11
+1011	1.0.0	S1	completed	2021-02-05	KAspodauz2B		between_1h_2h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	11
+1011	1.0.0	S1	completed	2021-02-05	HSA1Aa1		no_abschluss	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	11
+1011	1.0.0	S1	completed	2021-02-05	HBA1A		public_administration	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	11
+1011	1.0.0	S1	completed	2021-02-05	ERWTOa		student	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	11
+1012	1.0.0	S1	completed	2021-06-14	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	12
+1012	1.0.0	S1	completed	2021-06-14	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	12
+1012	1.0.0	S1	completed	2021-06-14	Gebm_Gebj	1951-07		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	12
+1012	1.0.0	S1	completed	2021-06-14	HS1		good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	12
+1012	1.0.0	S1	completed	2021-06-14	CD1A		yes	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	12
+1012	1.0.0	S1	completed	2021-06-14	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	12
+1012	1.0.0	S1	completed	2021-06-14	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	12
+1012	1.0.0	S1	completed	2021-06-14	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	12
+1012	1.0.0	S1	completed	2021-06-14	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	12
+1012	1.0.0	S1	completed	2021-06-14	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	12
+1012	1.0.0	S1	completed	2021-06-14	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	12
+1012	1.0.0	S1	completed	2021-06-14	CD1H		yes	de	Depression	12
+1012	1.0.0	S1	completed	2021-06-14	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	12
+1012	1.0.0	S1	completed	2021-06-14	BM1	182		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	12
+1012	1.0.0	S1	completed	2021-06-14	BM2	134		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	12
+1012	1.0.0	S1	completed	2021-06-14	SK1A		not_anymore	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	12
+1012	1.0.0	S1	completed	2021-06-14	KAspodauz2B		more_than_8h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	12
+1012	1.0.0	S1	completed	2021-06-14	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	12
+1012	1.0.0	S1	completed	2021-06-14	HBA1A		anlernausbildung	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	12
+1012	1.0.0	S1	completed	2021-06-14	ERWTOa		geringfügig_erwerbstätig	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	12
+1013	1.0.0	S1	completed	2021-05-28	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	13
+1013	1.0.0	S1	completed	2021-05-28	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	13
+1013	1.0.0	S1	completed	2021-05-28	Gebm_Gebj	1931-01		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	13
+1013	1.0.0	S1	completed	2021-05-28	HS1		good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	13
+1013	1.0.0	S1	completed	2021-05-28	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	13
+1013	1.0.0	S1	completed	2021-05-28	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	13
+1013	1.0.0	S1	completed	2021-05-28	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	13
+1013	1.0.0	S1	completed	2021-05-28	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	13
+1013	1.0.0	S1	completed	2021-05-28	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	13
+1013	1.0.0	S1	completed	2021-05-28	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	13
+1013	1.0.0	S1	completed	2021-05-28	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	13
+1013	1.0.0	S1	completed	2021-05-28	CD1H		yes	de	Depression	13
+1013	1.0.0	S1	completed	2021-05-28	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	13
+1013	1.0.0	S1	completed	2021-05-28	BM1	117		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	13
+1013	1.0.0	S1	completed	2021-05-28	BM2	139		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	13
+1013	1.0.0	S1	completed	2021-05-28	SK1A		daily	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	13
+1013	1.0.0	S1	completed	2021-05-28	KAspodauz2B		between_6h_7h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	13
+1013	1.0.0	S1	completed	2021-05-28	HSA1Aa1		hauptschule	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	13
+1013	1.0.0	S1	completed	2021-05-28	HBA1A		public_administration	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	13
+1013	1.0.0	S1	completed	2021-05-28	ERWTOa		unemployed_other_reason	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	13
+1014	1.0.0	S1	completed	2021-12-28	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	14
+1014	1.0.0	S1	completed	2021-12-28	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	14
+1014	1.0.0	S1	completed	2021-12-28	Gebm_Gebj	1987-04		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	14
+1014	1.0.0	S1	completed	2021-12-28	HS1		good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	14
+1014	1.0.0	S1	completed	2021-12-28	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	14
+1014	1.0.0	S1	completed	2021-12-28	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	14
+1014	1.0.0	S1	completed	2021-12-28	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	14
+1014	1.0.0	S1	completed	2021-12-28	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	14
+1014	1.0.0	S1	completed	2021-12-28	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	14
+1014	1.0.0	S1	completed	2021-12-28	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	14
+1014	1.0.0	S1	completed	2021-12-28	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	14
+1014	1.0.0	S1	completed	2021-12-28	CD1H		no	de	Depression	14
+1014	1.0.0	S1	completed	2021-12-28	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	14
+1014	1.0.0	S1	completed	2021-12-28	BM1	64		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	14
+1014	1.0.0	S1	completed	2021-12-28	BM2	140		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	14
+1014	1.0.0	S1	completed	2021-12-28	SK1A		daily	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	14
+1014	1.0.0	S1	completed	2021-12-28	KAspodauz2B		between_4h_5h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	14
+1014	1.0.0	S1	completed	2021-12-28	HSA1Aa1		abitur	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	14
+1014	1.0.0	S1	completed	2021-12-28	HBA1A		no_qualification	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	14
+1014	1.0.0	S1	completed	2021-12-28	ERWTOa		student	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	14
+1015	1.0.0	S1	completed	2022-01-21	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	15
+1015	1.0.0	S1	completed	2022-01-21	Sex_A		diverse	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	15
+1015	1.0.0	S1	completed	2022-01-21	Gebm_Gebj	1943-02		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	15
+1015	1.0.0	S1	completed	2022-01-21	HS1		dont_know	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	15
+1015	1.0.0	S1	completed	2022-01-21	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	15
+1015	1.0.0	S1	completed	2022-01-21	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	15
+1015	1.0.0	S1	completed	2022-01-21	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	15
+1015	1.0.0	S1	completed	2022-01-21	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	15
+1015	1.0.0	S1	completed	2022-01-21	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	15
+1015	1.0.0	S1	completed	2022-01-21	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	15
+1015	1.0.0	S1	completed	2022-01-21	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	15
+1015	1.0.0	S1	completed	2022-01-21	CD1H		yes	de	Depression	15
+1015	1.0.0	S1	completed	2022-01-21	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	15
+1015	1.0.0	S1	completed	2022-01-21	BM1	173		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	15
+1015	1.0.0	S1	completed	2022-01-21	BM2	83		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	15
+1015	1.0.0	S1	completed	2022-01-21	SK1A		not_smoking	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	15
+1015	1.0.0	S1	completed	2022-01-21	KAspodauz2B		less_than_1h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	15
+1015	1.0.0	S1	completed	2022-01-21	HSA1Aa1		realschule	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	15
+1015	1.0.0	S1	completed	2022-01-21	HBA1A		no_qualification	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	15
+1015	1.0.0	S1	completed	2022-01-21	ERWTOa		hausfrau	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	15
+1016	1.0.0	S1	completed	2021-07-22	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	16
+1016	1.0.0	S1	completed	2021-07-22	Sex_A		diverse	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	16
+1016	1.0.0	S1	completed	2021-07-22	Gebm_Gebj	1911-06		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	16
+1016	1.0.0	S1	completed	2021-07-22	HS1		very_bad	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	16
+1016	1.0.0	S1	completed	2021-07-22	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	16
+1016	1.0.0	S1	completed	2021-07-22	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	16
+1016	1.0.0	S1	completed	2021-07-22	CD1C		no	de	Asthma, einschließlich allergisches Asthma	16
+1016	1.0.0	S1	completed	2021-07-22	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	16
+1016	1.0.0	S1	completed	2021-07-22	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	16
+1016	1.0.0	S1	completed	2021-07-22	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	16
+1016	1.0.0	S1	completed	2021-07-22	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	16
+1016	1.0.0	S1	completed	2021-07-22	CD1H		no	de	Depression	16
+1016	1.0.0	S1	completed	2021-07-22	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	16
+1016	1.0.0	S1	completed	2021-07-22	BM1	134		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	16
+1016	1.0.0	S1	completed	2021-07-22	BM2	137		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	16
+1016	1.0.0	S1	completed	2021-07-22	SK1A		daily	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	16
+1016	1.0.0	S1	completed	2021-07-22	KAspodauz2B		between_7h_8h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	16
+1016	1.0.0	S1	completed	2021-07-22	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	16
+1016	1.0.0	S1	completed	2021-07-22	HBA1A		fachschule	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	16
+1016	1.0.0	S1	completed	2021-07-22	ERWTOa		hausfrau	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	16
+1017	1.0.0	S1	completed	2021-02-02	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	17
+1017	1.0.0	S1	completed	2021-02-02	Sex_A		male	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	17
+1017	1.0.0	S1	completed	2021-02-02	Gebm_Gebj	1938-12		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	17
+1017	1.0.0	S1	completed	2021-02-02	HS1		very_bad	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	17
+1017	1.0.0	S1	completed	2021-02-02	CD1A		no	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	17
+1017	1.0.0	S1	completed	2021-02-02	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	17
+1017	1.0.0	S1	completed	2021-02-02	CD1C		no	de	Asthma, einschließlich allergisches Asthma	17
+1017	1.0.0	S1	completed	2021-02-02	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	17
+1017	1.0.0	S1	completed	2021-02-02	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	17
+1017	1.0.0	S1	completed	2021-02-02	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	17
+1017	1.0.0	S1	completed	2021-02-02	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	17
+1017	1.0.0	S1	completed	2021-02-02	CD1H		yes	de	Depression	17
+1017	1.0.0	S1	completed	2021-02-02	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	17
+1017	1.0.0	S1	completed	2021-02-02	BM1	159		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	17
+1017	1.0.0	S1	completed	2021-02-02	BM2	180		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	17
+1017	1.0.0	S1	completed	2021-02-02	SK1A		sometimes	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	17
+1017	1.0.0	S1	completed	2021-02-02	KAspodauz2B		between_6h_7h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	17
+1017	1.0.0	S1	completed	2021-02-02	HSA1Aa1		abschluss_7y	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	17
+1017	1.0.0	S1	completed	2021-02-02	HBA1A		no_qualification	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	17
+1017	1.0.0	S1	completed	2021-02-02	ERWTOa		unemployed_other_reason	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	17
+1018	1.0.0	S1	completed	2021-08-10	Sex		female	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	18
+1018	1.0.0	S1	completed	2021-08-10	Sex_A		diverse	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	18
+1018	1.0.0	S1	completed	2021-08-10	Gebm_Gebj	1997-06		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	18
+1018	1.0.0	S1	completed	2021-08-10	HS1		moderate	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	18
+1018	1.0.0	S1	completed	2021-08-10	CD1A		yes	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	18
+1018	1.0.0	S1	completed	2021-08-10	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	18
+1018	1.0.0	S1	completed	2021-08-10	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	18
+1018	1.0.0	S1	completed	2021-08-10	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	18
+1018	1.0.0	S1	completed	2021-08-10	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	18
+1018	1.0.0	S1	completed	2021-08-10	CD1F		yes	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	18
+1018	1.0.0	S1	completed	2021-08-10	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	18
+1018	1.0.0	S1	completed	2021-08-10	CD1H		yes	de	Depression	18
+1018	1.0.0	S1	completed	2021-08-10	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	18
+1018	1.0.0	S1	completed	2021-08-10	BM1	153		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	18
+1018	1.0.0	S1	completed	2021-08-10	BM2	126		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	18
+1018	1.0.0	S1	completed	2021-08-10	SK1A		not_smoking	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	18
+1018	1.0.0	S1	completed	2021-08-10	KAspodauz2B		more_than_8h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	18
+1018	1.0.0	S1	completed	2021-08-10	HSA1Aa1		still_student	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	18
+1018	1.0.0	S1	completed	2021-08-10	HBA1A		fachschule	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	18
+1018	1.0.0	S1	completed	2021-08-10	ERWTOa		unemployed_other_reason	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	18
+1019	1.0.0	S1	completed	2021-04-07	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	19
+1019	1.0.0	S1	completed	2021-04-07	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	19
+1019	1.0.0	S1	completed	2021-04-07	Gebm_Gebj	1958-10		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	19
+1019	1.0.0	S1	completed	2021-04-07	HS1		very_good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	19
+1019	1.0.0	S1	completed	2021-04-07	CD1A		yes	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	19
+1019	1.0.0	S1	completed	2021-04-07	CD1B		yes	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	19
+1019	1.0.0	S1	completed	2021-04-07	CD1C		no	de	Asthma, einschließlich allergisches Asthma	19
+1019	1.0.0	S1	completed	2021-04-07	CD1D		no	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	19
+1019	1.0.0	S1	completed	2021-04-07	CD1E		no	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	19
+1019	1.0.0	S1	completed	2021-04-07	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	19
+1019	1.0.0	S1	completed	2021-04-07	CD1G		yes	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	19
+1019	1.0.0	S1	completed	2021-04-07	CD1H		yes	de	Depression	19
+1019	1.0.0	S1	completed	2021-04-07	CD1I		no	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	19
+1019	1.0.0	S1	completed	2021-04-07	BM1	145		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	19
+1019	1.0.0	S1	completed	2021-04-07	BM2	148		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	19
+1019	1.0.0	S1	completed	2021-04-07	SK1A		not_smoking	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	19
+1019	1.0.0	S1	completed	2021-04-07	KAspodauz2B		between_5h_6h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	19
+1019	1.0.0	S1	completed	2021-04-07	HSA1Aa1		realschule	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	19
+1019	1.0.0	S1	completed	2021-04-07	HBA1A		no_qualification	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	19
+1019	1.0.0	S1	completed	2021-04-07	ERWTOa		vollzeit	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	19
+1020	1.0.0	S1	completed	2021-12-13	Sex		male	de	Welches Geschlecht wurde bei Ihrer Geburt in Ihre Geburtsurkunde eingetragen?	20
+1020	1.0.0	S1	completed	2021-12-13	Sex_A		female	de	Da sich nicht alle Menschen ihrem eingetragenen Geschlecht zugehörig fühlen: Welchem Geschlecht fühlen Sie sich zugehörig?	20
+1020	1.0.0	S1	completed	2021-12-13	Gebm_Gebj	1954-12		de	Wann sind Sie geboren? Bitte geben Sie den Monat und das Jahr an, in dem Sie geboren wurden.	20
+1020	1.0.0	S1	completed	2021-12-13	HS1		very_good	de	Wie ist Ihr Gesundheitszustand im Allgemeinen?  Er ist...	20
+1020	1.0.0	S1	completed	2021-12-13	CD1A		yes	de	Es geht nun um dauerhafte Krankheiten und chronische Gesundheitsprobleme. Bitte berücksichtigen Sie dabei keine vorübergehenden gesundheitlichen Probleme.  Hatten Sie in den letzten 12 Monaten eine der folgenden Krankheiten oder Beschwerden?  Arthrose. Nicht gemeint ist Arthritis bzw. Gelenksentzündung.	20
+1020	1.0.0	S1	completed	2021-12-13	CD1B		no	de	Allergien wie Heuschnupfen, allergische Reaktionen der Augen oder der Haut, Lebensmittelallergien oder andere Allergien.  Nicht gemeint ist allergisches Asthma	20
+1020	1.0.0	S1	completed	2021-12-13	CD1C		yes	de	Asthma, einschließlich allergisches Asthma	20
+1020	1.0.0	S1	completed	2021-12-13	CD1D		yes	de	Bluthochdruck bzw. Hypertonie, behandelt oder unbehandelt 	20
+1020	1.0.0	S1	completed	2021-12-13	CD1E		yes	de	Erhöhte Blutfette oder erhöhte Cholesterinwerte	20
+1020	1.0.0	S1	completed	2021-12-13	CD1F		no	de	Zuckerkrankheit/Diabetes, kein Schwangerschaftsdiabetes	20
+1020	1.0.0	S1	completed	2021-12-13	CD1G		no	de	Beschwerden im Rücken oder sonstige chronische Rückenleiden 	20
+1020	1.0.0	S1	completed	2021-12-13	CD1H		no	de	Depression	20
+1020	1.0.0	S1	completed	2021-12-13	CD1I		yes	de	Eine andere chronische Krankheit oder ein anderes lang andauerndes gesundheitliches Problem	20
+1020	1.0.0	S1	completed	2021-12-13	BM1	213		de	Wie groß sind Sie, wenn Sie keine Schuhe tragen?  Bitte geben Sie Ihre Körpergröße in cm an.	20
+1020	1.0.0	S1	completed	2021-12-13	BM2	98		de	Wie viel wiegen Sie, wenn Sie keine Kleidung und Schuhe tragen? Bitte geben Sie Ihr Körpergewicht in kg an. Schwangere geben bitte ihr Gewicht vor der Schwangerschaft an.	20
+1020	1.0.0	S1	completed	2021-12-13	SK1A		not_anymore	de	In den nächsten Fragen geht es um ihr Gesundheitsverhalten.  Rauchen Sie Tabakprodukte? Bitte schließen Sie elektronische Zigaretten oder ähnliche Produkte aus.	20
+1020	1.0.0	S1	completed	2021-12-13	KAspodauz2B		between_1h_2h	de	Wie viel Zeit verbringen Sie insgesamt in einer typischen Woche mit Sport, Fitness oder körperlichen Aktivität in der Freizeit?	20
+1020	1.0.0	S1	completed	2021-12-13	HSA1Aa1		still_student	de	Nun geht es um Ihre Bildung und Ausbildung.  Welchen höchsten allgemeinbildenden Schulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	20
+1020	1.0.0	S1	completed	2021-12-13	HBA1A		meister	de	Welchen höchsten beruflichen Ausbildungs- oder Hochschul-/Fachhochschulabschluss haben Sie? Ordnen Sie bitte im Ausland erworbene Abschlüsse einem gleichwertigen deutschen Abschluss zu.	20
+1020	1.0.0	S1	completed	2021-12-13	ERWTOa		ruhestand	de	Welche Lebenssituation trifft derzeit überwiegend auf Sie zu?	20

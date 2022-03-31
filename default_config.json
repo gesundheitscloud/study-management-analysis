@@ -2,10 +2,33 @@
     "GENERATE": {
         "templates_dir": "./files/RKI_GENERATE/"
     },
-    "mock-db": {
+    "local_env": {
         "EXAMPLE_STUDY": {
             "participants": "./files/EXAMPLE_STUDY/2022-03-31-participants.csv",
             "responses": "./files/EXAMPLE_STUDY/2022-03-31-responses.csv"
         }
-    }
+    },
+    "staging_env": {
+    	"default_config": "903012b3-7c7b-4c96-a5b9-af38914b04b7",
+	    "ACCEPT": "a0cd02ce-6d1b-49f3-bc0e-14590c0249b3",
+	    "CRONOS": "5bc6be3d-1893-42ab-983c-b322f3daffe0",
+	    "WAITING_LIST": "427f7191-7458-49d3-8dc1-36a230f586c3",
+	    "ECOV": "686d3b9b-b8fd-46ba-9e25-af48c027bb55",
+	    "RKI_PANEL": "c9d45728-f720-45c6-b0ad-fd841f309c11",
+	    "RKI_FEASIBILITY": "752e78e3-4be7-444d-bc59-766e6acd757e",
+	    "FEMFIT": "3506d0d0-0c67-4983-b9ce-b4d0ea8daeac",
+	    "BROAD_CONSENT": "1b29380e-dfd2-4ada-b7cc-a6d8575a631d"
+    },
+    "production_env": {
+    	"default_config": "daac6e40-9fdc-48f8-bd9b-181571102d91",
+		"ACCEPT": "fb4269d3-f6ac-4f81-85da-b80ce277793e",
+		"BROAD_CONSENT": "3a50db2a-5051-48e9-ab11-2f9aea03f99f",
+		"CRONOS": "38ce29c0-eb76-45cc-ba4f-56395f8c49e0",
+		"COCOMO ": "e14cc34d-b78e-46ad-a7c6-f6159f1f1c96",
+		"WAITING_LIST": "3ce0e946-2aff-4960-aaca-d7fa43bdcc8e",
+		"ECOV": "f875fdc4-c180-45f3-bdbb-a68fb1476338",
+		"FEMFIT": "69990b1e-3b4c-4e7f-9d06-84cc2cdf88d0",
+		"USER_BEHAVIOUR": "f5a95a40-ccaa-4aec-bfec-c1a634e3a9a8"
+    },
+    "env": "staging_env"
 }

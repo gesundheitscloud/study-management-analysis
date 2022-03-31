@@ -1,22 +1,21 @@
 import json
 import os
 import pandas as pd
-from pyqe import Query, Result, Person, Interactions
 from IPython.utils import io
 
 from contextlib import redirect_stdout
 from lib.schema import SchemaManager
 import io
 
-    
-class Database(object):
+class QueryWrapper(object):
     
     def __init__(self, schema):
-        study_settings = SchemaManager.get_settings(schema)
-        self.study_id = study_settings.get_study()
-        self.config_id = study_settings.get_config()
-        # print(self.study_id, self.config_id)
+        self.settings = SchemaManager.get_settings(schema)
         self.schema = schema
+    
+    @staticmethod
+    def _import_alp_libs():
+        from pyqe import Query, Result, Person, Interactions
         
     def get_participants(self):
         query = self.prepare_query('Participants')
@@ -35,8 +34,6 @@ class Database(object):
         column_names = ['ALP_ID', 'EXTERNAL_ID', 'STATUS', 'START_DATE', 'END_DATE']
         # if df is empty alp returns empty df without columns
         df = df[column_names] if df.shape[0] else pd.DataFrame(columns = column_names)
-        df['START_DATE'] = pd.to_datetime(df['START_DATE'])
-        df['END_DATE'] = pd.to_datetime(df['END_DATE'])
         return df    
     
     def get_wearables(self):
@@ -96,10 +93,12 @@ class Database(object):
         return df
         
     def prepare_query(self, cohort_name):
-        q = Query(cohort_name=cohort_name)        
-        q.set_study(self.study_id)
-        if self.config_id:
-            q.set_study_config(self.config_id)
+        QueryWrapper._import_alp_libs()
+        q = Query(cohort_name=cohort_name) 
+        study_id = study_settings.get_study()
+        config_id = study_settings.get_config()
+        q.set_study(study_id)
+        q.set_study_config(config_id)
         return q
     
     def execute(self, query, filters):

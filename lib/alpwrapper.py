@@ -87,8 +87,9 @@ class QueryWrapper(object):
                         'VALUECODING_CODE', 'LANGUAGE', 'TEXT', 'QUESTIONNAIRE_ID']
         df = df[column_names] if df.shape[0] else pd.DataFrame(columns = column_names)
         df['AUTHORED'] = pd.to_datetime(df['AUTHORED'])
-        temp = df['QUESTIONNAIRE'].str.split('/', expand=True)
-        df['QUESTIONNAIRE'] = temp[len(temp.columns) - 1]
+        if len(df) > 0:
+            temp = df['QUESTIONNAIRE'].str.split('/', expand=True)
+            df['QUESTIONNAIRE'] = temp[len(temp.columns) - 1]
         return df
         
     def prepare_query(self, cohort_name):

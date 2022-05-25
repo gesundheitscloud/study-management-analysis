@@ -2,11 +2,12 @@ import pandas as pd
 import json
 
 from lib.schema import Schema
-
+    
 class MockDatabase(object):
     
-    def __init__(self, schema):
+    def __init__(self, schema, drop_index=True):
         self.schema = schema
+        self.drop_index = drop_index
         env_name = 'local_env'
         with open(r'./config.json', "r") as jsonFile:
             data_lib = json.load(jsonFile)
@@ -22,4 +23,5 @@ class MockDatabase(object):
         return self._read_file('responses') 
         
     def _read_file(self, file_label, sep='\t'):
-        return pd.read_csv(self.files[file_label], sep=sep)
+        df = pd.read_csv(self.files[file_label], sep=sep, low_memory=False)
+        return df.drop(columns=['Unnamed: 0'])

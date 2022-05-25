@@ -91,6 +91,9 @@ class ParticipantsBuilder:
         self.participants_df = df.drop(columns=['LAST_DONATION'])
         return self
     
+    def last_donation(self):
+        return self.responses_df["AUTHORED"].max()
+        
     def get(self):
         return self.participants_df.copy()
     

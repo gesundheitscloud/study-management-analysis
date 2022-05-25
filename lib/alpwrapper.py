@@ -75,7 +75,7 @@ class QueryWrapper(object):
             'questionnaireauthored': 'AUTHORED',
             'questionnairereference' : 'QUESTIONNAIRE',
             'linkid': 'LINK_ID',
-            'questionnaireid': 'QUESTIONNAIRE_ID',
+            'recordid': 'QUESTIONNAIRE_ID',
             'questionnairelanguage': 'LANGUAGE',
             'text': 'TEXT',
             'value': 'VALUE',

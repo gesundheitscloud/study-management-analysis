@@ -8,6 +8,14 @@ class ResponsesBuilder():
             condition = condition & (self.responses_df['QUESTIONNAIRE'] == survey_id) 
         return self.responses_df[condition]
 
+    def get_eariest_responding_time(self, questionnaire_name, column_name):
+        result = self.responses_df[self.responses_df['QUESTIONNAIRE'] == questionnaire_name]
+        result = result[['ALP_ID', 'AUTHORED']]
+        result = result.groupby(by=['ALP_ID']).agg({'AUTHORED': ['min']})
+        result.reset_index(inplace=True)
+        result.columns = ['ALP_ID', column_name]
+        return result
+    
     def get_answer(self, column_name, question_id, survey_id = None, multichoice=False):
         value_col = 'VALUECODING_CODE' if multichoice else 'VALUE'
         df = self._filter_by_question(question_id, survey_id)

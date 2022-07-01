@@ -24,4 +24,5 @@ class MockDatabase(object):
         
     def _read_file(self, file_label, sep='\t'):
         df = pd.read_csv(self.files[file_label], sep=sep, low_memory=False)
-        return df.drop(columns=['Unnamed: 0'])
+#         df = df.drop(columns=['Unnamed: 0'])
+        return df

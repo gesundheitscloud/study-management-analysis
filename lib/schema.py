@@ -12,6 +12,7 @@ class Schema(Enum):
     FEMFIT = 8
     BROAD_CONSENT = 9
     USER_RESEARCH = 10
+    SYMPTOM_TRACKER = 11
         
 class Settings():
     def __init__(self, study_id, config_id):

@@ -32,5 +32,5 @@
         "SYMPTOM_TRACKER": "bee1af36-809d-4cd7-a0e1-6e4c0551c891",
         "default_config": "903012b3-7c7b-4c96-a5b9-af38914b04b7"
     },
-    "env": "local_env"
+    "env": "staging_env"
 }

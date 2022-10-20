@@ -22,7 +22,7 @@ class MockDatabase(object):
     def get_responses(self):
         return self._read_file('responses') 
         
-    def _read_file(self, file_label, sep='\t'):
+    def _read_file(self, file_label, sep=','):
         df = pd.read_csv(self.files[file_label], sep=sep, low_memory=False)
 #         df = df.drop(columns=['Unnamed: 0'])
         return df
